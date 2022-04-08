@@ -165,35 +165,10 @@ class Details extends React.Component {
         }
         event.preventDefault();
     }
-    handlesaveOrder =() =>{
-      const   { email, contactNumber, name, address } = this.state;
-    const orderUpObj = {
-        email: email,
-        contactNumber: contactNumber,
-        name: name,
-        address: address
-    };
-    axios({
-        method: 'POST',
-        url: 'http://localhost:1234/orders',
-        headers: { 'Content-Type': 'application/json' },
-        data: orderUpObj
-    })
-        .then(response => {
-            if (response.data.message == 'User signed up ') {
-                this.setState({                    
-                    email: '',
-                    contactNumber: '',
-                    name: '',
-                    address: ''
-                });
-                
-            }
-        })
-        .catch(err => console.log(err))}
+    
 
     render() {
-        const { restaurant, menuItems, menuItemsModalIsOpen, galleryModalIsOpen, formModalIsOpen, subTotal,email,contactNumber,name,address } = this.state;
+        const { restaurant, menuItems, menuItemsModalIsOpen, galleryModalIsOpen, formModalIsOpen, subTotal} = this.state;
         return (
             <div>
                 <div>
@@ -317,7 +292,7 @@ class Details extends React.Component {
                             <input type="text" class="form-control" onChange={(event) => this.handleInputChange('contactNumber', event)} />
                             <label class="form-label">Address</label>
                             <input type="text" class="form-control" onChange={(event) => this.handleInputChange('address', event)} />
-                            <button class="btn btn-danger" style={{ marginTop: '20px', float: 'right' }} onClick={() => {this.handlePayment();this.handlesaveOrder()}}>Proceed</button>
+                            <button class="btn btn-danger" style={{ marginTop: '20px', float: 'right' }} onClick={this.handlePayment}>Proceed</button>
                         </form>
                     </div>
                 </Modal>
