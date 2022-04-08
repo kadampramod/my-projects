@@ -1,0 +1,208 @@
+.login1{ color: wheat;
+    float: right ;font-size: medium; padding:3px;
+}
+.log1{margin-right: 10px;
+    display: inline-block; 
+}
+.cret{ border: solid 1px wheat; padding: 3px ;margin-top: 3px;margin-right: 10px;
+    display: inline-block;
+}
+.header1{
+    background-color: red;
+    height: 45px; width: 100%;
+          font-size: 30px;
+}
+
+.logo1{display: inline-block; text-align: center;
+    background-color: wheat;height: 45px; width: 45px;color: red;
+    border-radius: 50%;margin-left: 10px;
+}
+.mainheading{
+   
+    margin: 15px 10px 10px 80px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;    
+    color: #192f60;
+}
+    .lb{
+        display: inline-block;height: 550px; width: 25%;
+        border:   1px ; 
+        box-shadow: rgb(209, 203, 203) 2px 2px 2px 2px;
+        margin: 20px 0px 5px 25px;
+    }
+    .rb{
+        display: inline-block; 
+         vertical-align: top;
+         margin-left: 60px;
+         width: 90%;
+    }
+    .rb:hover {   
+        cursor:pointer;
+        }
+    .img{height:35%; width:30% ;margin: 5px 5px 5px 5px; border-radius: 10%;}
+
+.rb1{
+    display: inline-block;height: 250px; width: 100%; vertical-align: top;
+    border:  1px; box-shadow: rgb(209, 203, 203) 2px 2px 2px 2px;margin-top: 25px;  
+      
+}
+
+.rb1:hover {   
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: rgb(209, 203, 203) 5px 5px 5px 5px;
+    }
+.no-records {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+.sb{
+    display: inline-block; margin-left:360px; margin-top: 10px;
+}
+.sb:hover {   
+    cursor:pointer;
+    }
+.sbs{
+    display: inline-block; height:30px; width: 30px;
+         text-align: center;margin-left: 5px;margin-top: 5px;
+        border-radius: 7px;
+  border: solid 1px #8c96ab;
+  background-color: #fff;
+}
+
+
+.Bb1{ color: cornflowerblue;margin-bottom: 10px;margin-left: 10px;
+    display: inline-block;
+   
+
+}
+.Bb2{
+display: inline-block;margin-left: 30px;font-size:medium;color: burlywood;
+
+}
+.righttop{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px  5px;
+}
+    
+    .Cost ,.sort,.Cuisine,.locat{ 
+           
+    margin: 8px 10px 10px 10px;
+    font-family: Poppins;
+    font-size: 15px;   
+        color: #192f60;
+        font-weight: bold;
+
+    }
+    
+.cbox,.radio{
+    height: 20px;
+    margin: 12px 111px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;    
+    letter-spacing: normal;   
+    color: #8c96ab;;
+
+}
+.cbox,.radio:hover {   
+    cursor:pointer;
+    }
+.fil{
+    display: inline-block;
+      margin-left:70px ;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+     color: #192f60;
+  }
+  .select{
+    width: 200px;
+    height: 25px;
+    margin: 1px 0 2px 10px;
+        border-radius: 3px;
+    border: solid 1px #8c96ab;
+  }
+  .select:hover {   
+    cursor:pointer;
+    }
+  .shop{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+     color: #4f7cdf;
+    
+    }
+    .add2{
+        font-family: Poppins;
+        font-size: 16px;     
+        line-height: 1.88;     
+       color: #636f88;
+            }
+  .add1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;  
+       color: #192f60
+  }
+  .icon{
+      visibility: hidden;  margin-left: 10px; margin-top: 5px;
+  }
+  .icon:hover {   
+    cursor:pointer;
+    }
+
+ @media only screen and  (max-width:600px){
+
+    .icon {visibility: visible !important;  } 
+     
+        .mainheading{margin-left: 10px;}
+
+    .lb{margin-left: 30px;width: 80%}
+    .rb{margin-left: 15px;}
+
+    /* .fil{ margin: 55px 0px 0px 10px; } */
+
+         
+        .rb1{ width: 100%;height: 200px;   } 
+       
+        .rb2{ width:100%; height: 200px;  }  
+
+       
+        .Bb1{ margin-left:5px;  font-size:medium;                  
+        }
+
+        .Bb2{
+         margin-left: 10px;font-size:medium
+                }                              
+                
+                .righttop{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 0px 0px 0px  5px;
+                }
+                .shop{                   
+                    font-size: 20px;
+                    font-weight: 500;          
+                    
+                    }
+                    .add2{                       
+                        font-size: 12px;     
+                        line-height: 1.5; }
+                        
+                                                   
+                  .add1{                   
+                    font-size: 12px;
+                   font-weight: 250;                        
+                  }
+             .sb{margin-left: 170px;}     
+                
+}
+
+
+   
+       
